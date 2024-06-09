@@ -1,0 +1,10 @@
+students={
+            "Alice":{"id":"ID0001","age":26,"grade":"A"},
+            "Bob":["ID0002",27,"B"],
+            "Claire":["ID0003",17,"C"],
+            "Dan":["ID0004",21,"D"],
+            "Emma":["ID0005",25,"E"] 
+        }
+print(students["Claire"][0])
+print(students["Dan"][1:])
+print(students["Alice"]["id"],students["Alice"]["grade"])
